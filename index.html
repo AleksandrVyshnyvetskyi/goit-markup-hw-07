@@ -24,40 +24,36 @@
   <body>
     <!-- Шапка -->
 
-    <header class="header-padding">
-      <div class="container container-nav">
+    <header class="header-block">
+      <div class="container container--padding">
         <nav class="main-nav">
-          <a href="./index.html" class="logo"
-            ><span class="logo-web">Web</span>Studio</a
+          <a href="./index.html" class="logo logo--margin"
+            ><span class="logo__web">Web</span>Studio</a
           >
-          <ul class="site-nav link">
-            <li class="item">
-              <a class="site-nav current studio-page" href="./index.html"
-                >Студия</a
-              >
+          <ul class="site-nav">
+            <li class="site-nav__item site-nav__item--margin">
+              <a class="site-nav__link current" href="./index.html">Студия</a>
             </li>
-            <li class="item">
-              <a class="site-nav portfolio-page" href="./portfolio.html"
-                >Портфолио</a
-              >
+            <li class="site-nav__item site-nav__item--margin">
+              <a class="site-nav__link" href="./portfolio.html">Портфолио</a>
             </li>
-            <li class="item">
-              <a class="site-nav contacts-page" href="">Контакты</a>
+            <li class="site-nav__item site-nav__item--margin">
+              <a class="site-nav__link" href="">Контакты</a>
             </li>
           </ul>
         </nav>
-        <ul class="header-contacts link">
-          <li class="item">
-            <a class="contacts email-header" href="info@devstudio.com">
-              <svg class="email-header-svg">
+        <ul class="header-contacts">
+          <li class="header-contacts__item header-contacts__item--margin">
+            <a class="header-contacts__link" href="info@devstudio.com">
+              <svg class="header-contacts__svg" width="16" height="22">
                 <use href="./images/sprite.svg#icon-svgenvelope"></use>
               </svg>
               info@devstudio.com
             </a>
           </li>
-          <li class="item">
-            <a class="contacts tel-header" href="tel:+380961111111">
-              <svg class="tel-header-svg">
+          <li class="header-contacts__item header-contacts__item--margin">
+            <a class="header-contacts__link" href="tel:+380961111111">
+              <svg class="header-contacts__svg" width="10" height="16">
                 <use href="./images/sprite.svg#icon-svgsmartphone"></use>
               </svg>
               +38 096 111 11 11

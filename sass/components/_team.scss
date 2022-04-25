@@ -4,6 +4,10 @@
 
 .team {
   display: flex;
+
+  @media screen and (max-width: 480px) {
+    flex-direction: column;
+  }
 }
 
 .team-box {
@@ -16,6 +20,16 @@
 
   &:last-child {
     margin-right: 0px;
+  }
+
+  @media screen and (max-width: 480px) {
+    width: 450px;
+    margin-bottom: 30px;
+
+    img {
+      width: 450px;
+      height: 460px;
+    }
   }
 }
 
